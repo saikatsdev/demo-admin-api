@@ -32,11 +32,9 @@ use App\Http\Controllers\Frontend\Order\IncompleteOrderController;
 use App\Http\Controllers\Frontend\Product\ProductCatalogController;
 use App\Http\Controllers\Frontend\Product\CategorySectionController;
 use App\Http\Controllers\Frontend\BlogPost\BlogPostCategoryController;
-use App\Http\Controllers\Frontend\CMS\MissionController;
 use App\Http\Controllers\Frontend\CMS\ShippingPolicyController;
 use App\Http\Controllers\Frontend\CMS\TermsConditionController;
 use App\Http\Controllers\Frontend\CMS\ReturnRefundController;
-use App\Http\Controllers\Frontend\CMS\WarrantyPolicyController;
 use App\Http\Controllers\Frontend\Order\OnlinePaymentDiscountController;
 use App\Http\Controllers\Frontend\Order\OrderTrackController;
 use App\Http\Controllers\Frontend\Product\UpSellSettingController;
@@ -296,13 +294,6 @@ Route::prefix('shipping-policies')->group(function () {
     });
 });
 
-Route::prefix('warranty-policies')->group(function () {
-    Route::controller(WarrantyPolicyController::class)->group(function () {
-        Route::get('/',     'index');
-        Route::get('/{id}', 'show');
-    });
-});
-
 Route::prefix('order-policies')->group(function () {
     Route::controller(OrderPolicyController::class)->group(function () {
         Route::get('/',     'index');
@@ -312,13 +303,6 @@ Route::prefix('order-policies')->group(function () {
 
 Route::prefix('refund-policies')->group(function () {
     Route::controller(ReturnRefundController::class)->group(function () {
-        Route::get('/',     'index');
-        Route::get('/{id}', 'show');
-    });
-});
-
-Route::prefix('missions')->group(function () {
-    Route::controller(MissionController::class)->group(function () {
         Route::get('/',     'index');
         Route::get('/{id}', 'show');
     });

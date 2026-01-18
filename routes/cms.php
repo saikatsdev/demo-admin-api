@@ -7,13 +7,11 @@ use App\Http\Controllers\Backend\CMS\AboutController;
 use App\Http\Controllers\Backend\CMS\BannerController;
 use App\Http\Controllers\Backend\CMS\SliderController;
 use App\Http\Controllers\Backend\CMS\ContactController;
-use App\Http\Controllers\Backend\CMS\MissionController;
 use App\Http\Controllers\Backend\CMS\OrderPolicyController;
 use App\Http\Controllers\Backend\CMS\ReturnPolicyController;
 use App\Http\Controllers\Backend\CMS\PrivacyPolicyController;
 use App\Http\Controllers\Backend\CMS\ShippingPolicyController;
 use App\Http\Controllers\Backend\CMS\TermsAndConditionController;
-use App\Http\Controllers\Backend\CMS\WarrantyPolicyController;
 
 Route::middleware(['auth:sanctum'])->group(function () {
     // Slider route
@@ -103,28 +101,8 @@ Route::middleware(['auth:sanctum'])->group(function () {
         });
     });
 
-    Route::prefix('missions')->group(function(){
-        Route::controller(MissionController::class)->group(function(){
-            Route::get('/', 'index');
-            Route::post('/', 'store');
-            Route::get('/{id}', 'show');
-            Route::put('/{id}', 'update');
-            Route::delete('/{id}', 'destroy');
-        });
-    });
-
     Route::prefix('shipping/policy')->group(function(){
         Route::controller(ShippingPolicyController::class)->group(function(){
-            Route::get('/', 'index');
-            Route::post('/', 'store');
-            Route::get('/{id}', 'show');
-            Route::put('/{id}', 'update');
-            Route::delete('/{id}', 'destroy');
-        });
-    });
-
-    Route::prefix('warranty/policy')->group(function(){
-        Route::controller(WarrantyPolicyController::class)->group(function(){
             Route::get('/', 'index');
             Route::post('/', 'store');
             Route::get('/{id}', 'show');
