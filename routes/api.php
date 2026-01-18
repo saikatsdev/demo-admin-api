@@ -1,7 +1,6 @@
 <?php
 
 use App\Helpers\Helper;
-use App\Http\Controllers\Frontend\CMS\OrderPolicyController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
 use App\Http\Controllers\Frontend\AuthController;
@@ -32,9 +31,7 @@ use App\Http\Controllers\Frontend\Order\IncompleteOrderController;
 use App\Http\Controllers\Frontend\Product\ProductCatalogController;
 use App\Http\Controllers\Frontend\Product\CategorySectionController;
 use App\Http\Controllers\Frontend\BlogPost\BlogPostCategoryController;
-use App\Http\Controllers\Frontend\CMS\ShippingPolicyController;
 use App\Http\Controllers\Frontend\CMS\TermsConditionController;
-use App\Http\Controllers\Frontend\CMS\ReturnRefundController;
 use App\Http\Controllers\Frontend\Order\OnlinePaymentDiscountController;
 use App\Http\Controllers\Frontend\Order\OrderTrackController;
 use App\Http\Controllers\Frontend\Product\UpSellSettingController;
@@ -282,27 +279,6 @@ Route::prefix('contacts')->group(function () {
 // Privacy Policy
 Route::prefix('privacy-policies')->group(function () {
     Route::controller(PrivacyPolicyController::class)->group(function () {
-        Route::get('/',     'index');
-        Route::get('/{id}', 'show');
-    });
-});
-
-Route::prefix('shipping-policies')->group(function () {
-    Route::controller(ShippingPolicyController::class)->group(function () {
-        Route::get('/',     'index');
-        Route::get('/{id}', 'show');
-    });
-});
-
-Route::prefix('order-policies')->group(function () {
-    Route::controller(OrderPolicyController::class)->group(function () {
-        Route::get('/',     'index');
-        Route::get('/{id}', 'show');
-    });
-});
-
-Route::prefix('refund-policies')->group(function () {
-    Route::controller(ReturnRefundController::class)->group(function () {
         Route::get('/',     'index');
         Route::get('/{id}', 'show');
     });

@@ -16,22 +16,22 @@ class OrderFromSeeder extends Seeder
         OrderFrom::insert([
             [
                 "id"         => 1,
-                "name"       => "Frontend",
-                "slug"       => "frontend",
+                "name"       => "Website",
+                "slug"       => "website",
                 "status"     => $status,
                 "created_at" => $now,
             ],
             [
                 "id"         => 2,
-                "name"       => "Adminend",
-                "slug"       => "adminend",
+                "name"       => "Manual",
+                "slug"       => "manual",
                 "status"     => $status,
                 "created_at" => $now,
             ],
             [
                 "id"         => 3,
-                "name"       => "Landing Page",
-                "slug"       => "landing-page",
+                "name"       => "Incomplete",
+                "slug"       => "incomplete",
                 "status"     => $status,
                 "created_at" => $now,
             ]
