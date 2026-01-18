@@ -35,7 +35,6 @@ use App\Http\Controllers\Frontend\BlogPost\BlogPostCategoryController;
 use App\Http\Controllers\Frontend\CMS\MissionController;
 use App\Http\Controllers\Frontend\CMS\ShippingPolicyController;
 use App\Http\Controllers\Frontend\CMS\TermsConditionController;
-use App\Http\Controllers\Frontend\CMS\VisionController;
 use App\Http\Controllers\Frontend\CMS\ReturnRefundController;
 use App\Http\Controllers\Frontend\CMS\WarrantyPolicyController;
 use App\Http\Controllers\Frontend\Order\OnlinePaymentDiscountController;
@@ -320,13 +319,6 @@ Route::prefix('refund-policies')->group(function () {
 
 Route::prefix('missions')->group(function () {
     Route::controller(MissionController::class)->group(function () {
-        Route::get('/',     'index');
-        Route::get('/{id}', 'show');
-    });
-});
-
-Route::prefix('visions')->group(function () {
-    Route::controller(VisionController::class)->group(function () {
         Route::get('/',     'index');
         Route::get('/{id}', 'show');
     });
