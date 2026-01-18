@@ -1,0 +1,432 @@
+[25-Oct-2025 11:10:02 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/shukriya/api.servicekeyweb.xyz/vendor/composer/platform_check.php on line 28
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:21 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:52 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:52 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:52 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:52 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:52 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:52 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:52 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:53 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:53 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:53 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:53 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:53 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:53 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:48:53 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:01 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:01 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:01 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:01 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:01 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:01 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:01 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:02 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:30 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:39 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:40 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:40 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:40 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:40 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:40 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:40 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:49:50 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:15 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:15 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:15 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:15 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:15 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:15 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:15 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:16 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:16 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[29-Dec-2025 17:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use App\Models\Product\Product as Product because the name is already in use in /home/waqeyaco/api.waqeya.com/app/Repositories/ReportRepository.php on line 11
+[15-Jan-2026 19:14:37 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:37 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:37 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:37 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:50 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:51 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:52 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:53 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:53 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:14:53 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:15:07 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:15:07 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:15:10 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:15:10 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:15:10 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[15-Jan-2026 19:15:10 Asia/Dhaka] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/waqeyaco/api.waqeya.com/app/Repositories/Order/OrderRepository.php on line 1179
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:46:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:47:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:49:15 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:49:15 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:49:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:49:26 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:49:26 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:49:31 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26
+[17-Jan-2026 04:49:31 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/waqeyaco/api.waqeya.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/waqeyaco/api.waqeya.com/vendor/autoload.php(22): ComposerAutoloaderInitc01c9baf516587f7b4124f446726d61a::getLoader()
+#2 /home/waqeyaco/api.waqeya.com/public/index.php(34): require('/home/waqeyaco/...')
+#3 {main}
+  thrown in /home/waqeyaco/api.waqeya.com/vendor/composer/platform_check.php on line 26

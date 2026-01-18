@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Http\Resources\Backend\Order;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class CancelReasonResource extends JsonResource
+{
+    public function toArray(Request $request): array
+    {
+        return [
+            "id"           => $this->id,
+            "name"         => $this->name,
+            "slug"         => $this->slug,
+            "status"       => $this->status,
+            "orders_count" => $this->orders_count,
+            "total_amount" => $this->total_amount ?? 0,
+            "created_at"   => $this->created_at,
+            "updated_at"   => $this->updated_at,
+            "created_by"   => $this->whenLoaded('createdBy'),
+            "updated_by"   => $this->whenLoaded('updatedBy')
+        ];
+    }
+}
