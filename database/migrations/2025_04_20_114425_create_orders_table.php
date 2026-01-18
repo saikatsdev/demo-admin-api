@@ -37,7 +37,7 @@ return new class extends Migration
             $table->decimal('courier_payable', 20, 2)->default(0);
             $table->string('paid_status')->default(StatusEnum::UNPAID);
             $table->boolean('is_duplicate')->default(false);
-            $table->boolean('is_follow_order')->default(false);
+            $table->boolean('is_follow_order')->default(false)->nullable();
             $table->boolean('is_down_sell')->default(false);
             $table->boolean('is_incomplete')->default(false);
             $table->boolean('is_invoice_printed')->default(false);
@@ -54,9 +54,7 @@ return new class extends Migration
             $table->foreignId('courier_status_id')->nullable()->constrained('statuses')->noActionOnDelete();
             $table->foreignId('pickup_store_id')->nullable()->comment('This id come form pathao or redx');
             $table->integer('delivery_type')->default(48)->comment('48 for normal 12 for on need for pathao');
-            $table->foreignId('city_id')->nullable()->comment('This id come form pathao');
-            $table->foreignId('zone_id')->nullable()->comment('This id come form pathao');
-            $table->foreignId('area_id')->nullable()->comment('This id come form pathao or redx');
+            $table->foreignId('courier_area_id')->nullable()->comment('This id come form pathao or redx');
             $table->string('delivery_area')->nullable()->comment('This area name come form redx');
             $table->decimal('item_weight', 8, 2)->nullable()->comment('This field needed for courier');
             $table->string('consignment_id')->nullable()->comment('Come from steadfast');

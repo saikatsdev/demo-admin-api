@@ -1491,9 +1491,7 @@ class OrderRepository
                 "address_details",
                 "pickup_store_id",
                 "delivery_type",
-                "city_id",
-                "zone_id",
-                "area_id",
+                "courier_area_id",
                 "delivery_area",
                 "item_weight"
             )
