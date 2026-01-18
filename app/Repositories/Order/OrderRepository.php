@@ -1565,7 +1565,8 @@ class OrderRepository
         ->where(function ($query) use ($request) {
             $query->where("user_token", $request->user_token)
                 ->orWhereHas("details", function ($query) use ($request) {
-                    $query->where("phone_number", $request->phone_number);
+                    $query->where("phone_number", $request->phone_number)
+                    ->orWhere("ip_address", $request->ip());
                 });
         })->first();
 
