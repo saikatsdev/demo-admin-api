@@ -112,6 +112,13 @@ class SettingSeeder extends Seeder
             ],
             [
                 "setting_category_id" => 1,
+                "key"                 => "review_section",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "কাসটামারকে রিভিউ সেকশন দেখাতে চাইলে সুইচটি অন-অফ করে দিন"
+            ],
+            [
+                "setting_category_id" => 1,
                 "key"                 => "category_section",
                 "value"               => 1,
                 "type"                => "switch-button",
