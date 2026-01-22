@@ -32,6 +32,7 @@ use Database\Seeders\Product\ProductVariationSeeder;
 use Database\Seeders\Product\ProductPermissionSeeder;
 use Database\Seeders\Product\ProductCatalogTypeSeeder;
 use Database\Seeders\Order\OnlinePaymentDiscountSeeder;
+use Database\Seeders\Product\SubSubCategorySeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -64,6 +65,7 @@ class DatabaseSeeder extends Seeder
             BrandSeeder::class,
             CategorySeeder::class,
             SubCategorySeeder::class,
+            SubSubCategorySeeder::class,
             ProductSeeder::class,
             ProductVariationSeeder::class,
             SectionSeeder::class,

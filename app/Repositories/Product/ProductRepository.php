@@ -114,7 +114,7 @@ class ProductRepository
         $searchKey = $request->input("search_key", null);
 
         $products = $this->model->select("id", "name", "slug", "brand_id", "category_id", "mrp", "offer_price", "discount", "sell_price", "offer_percent",
-        "current_stock", "minimum_qty", "sku", "free_shipping","img_path"
+        "current_stock", "minimum_qty", "sku", "free_shipping","img_path","status"
         )->with([
             "category:id,name,slug",
             "brand:id,name,slug",
@@ -171,7 +171,7 @@ class ProductRepository
 
         return $products;
     }
-    
+
     public function search($request)
     {
         $searchKey = $request->input("search_key", null);
