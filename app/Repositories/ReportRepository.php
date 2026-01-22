@@ -6,13 +6,14 @@ use Carbon\Carbon;
 use App\Helpers\Helper;
 use App\Enums\StatusEnum;
 use App\Models\Order\Order;
-use App\Models\Order\OrderDetail;
 use App\Models\Product\Product;
+use App\Models\Order\OrderDetail;
 use Illuminate\Support\Facades\DB;
+use App\Models\Order\IncompleteOrder;
 use Modules\Accounting\Entities\Expense;
-use Illuminate\Pagination\LengthAwarePaginator;
 use Modules\StockManagement\Entities\Purchase;
 use Modules\StockManagement\Entities\Supplier;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 class ReportRepository
 {
@@ -182,6 +183,7 @@ class ReportRepository
             ->join("order_details", "orders.id", "=", "order_details.order_id")
             ->join("products", "order_details.product_id", "=", "products.id")
             ->leftJoin("product_variations", "products.id", "=", "product_variations.product_id")
+            ->whereNull("products.deleted_at")
             ->groupBy(
                 "products.id",
                 "products.name",
@@ -352,14 +354,14 @@ class ReportRepository
 
         return $orderProfitReport;
     }
-    
+
     public function orderCancelReport($request)
     {
         $lastCancelOrders = $this->model->select("id", "phone_number","customer_name","payable_price", "created_at")->where('current_status_id', 8)->latest()->take(10)->get();
 
         return $lastCancelOrders;
     }
-    
+
     public function orderReturnReport($request)
     {
         $returnOrders = $this->model
@@ -369,185 +371,6 @@ class ReportRepository
         ->get();
 
         return $returnOrders;
-    }
-
-    public function purchaseReport($request)
-    {
-        $startDate    = $request->input("start_date", null);
-        $endDate      = $request->input("end_date", null);
-        $supplierId   = $request->input("supplier_id", null);
-        $paginateSize = Helper::checkPaginateSize($request);
-
-        if ($startDate && $endDate) {
-            $startDate = Carbon::parse($startDate)->startOfDay();
-            $endDate   = Carbon::parse($endDate)->endOfDay();
-        }
-
-        $purchaseReports = Purchase::select(
-            "id",
-            "supplier_id",
-            "purchase_code",
-            "cost",
-            "quantity",
-            "buy_price",
-            "due_amount",
-            "paid_amount",
-            "paid_status",
-            "purchase_status",
-            "purchase_date"
-        )
-            ->with(["supplier:id,name"])
-            ->when($supplierId, fn($query) => $query->where("supplier_id", $supplierId))
-            ->when($startDate && $endDate, fn($query) => $query->whereBetween("purchase_date", [$startDate, $endDate]))
-            ->orderBy("purchase_date", "desc")
-            ->paginate($paginateSize);
-
-        return [
-            "total_purchase"    => $purchaseReports->count(),
-            "total_quantity"    => $purchaseReports->sum("quantity"),
-            "total_cost"        => $purchaseReports->sum("cost"),
-            "total_buy_price"   => $purchaseReports->sum("buy_price"),
-            "total_due_amount"  => $purchaseReports->sum("due_amount"),
-            "total_paid_amount" => $purchaseReports->sum("paid_amount"),
-            "purchase_report"   => $purchaseReports
-        ];
-    }
-
-    public function supplierReport($request)
-    {
-        $startDate    = $request->input("start_date", null);
-        $endDate      = $request->input("end_date", null);
-        $paginateSize = Helper::checkPaginateSize($request);
-
-        if ($startDate && $endDate) {
-            $startDate = Carbon::parse($startDate)->startOfDay();
-            $endDate   = Carbon::parse($endDate)->endOfDay();
-        }
-
-        $supplierReports = Supplier::select("id", "name", "phone_number", "created_at")
-            ->withCount("purchases")
-            ->withSum("purchases as buy_price", "buy_price")
-            ->withSum("purchases as due_amount", "due_amount")
-            ->withSum("purchases as paid_amount", "paid_amount")
-            ->when($startDate && $endDate, fn($query) => $query->whereBetween("created_at", [$startDate, $endDate]))
-            ->orderBy("created_at", "desc")
-            ->paginate($paginateSize);
-
-        return [
-            "total_supplier"    => $supplierReports->count(),
-            "total_purchase"    => $supplierReports->sum("purchases_count"),
-            "total_buy_price"   => $supplierReports->sum("buy_price"),
-            "total_due_amount"  => $supplierReports->sum("due_amount"),
-            "total_paid_amount" => $supplierReports->sum("paid_amount"),
-            "supplier_report"   => $supplierReports
-        ];
-    }
-
-    public function expenseReport($request)
-    {
-        $categoryId   = $request->input("category_id", null);
-        $startDate    = $request->input("start_date", null);
-        $endDate      = $request->input("end_date", null);
-        $paginateSize = Helper::checkPaginateSize($request);
-
-        if ($startDate && $endDate) {
-            $startDate = Carbon::parse($startDate)->startOfDay();
-            $endDate   = Carbon::parse($endDate)->endOfDay();
-        }
-
-        $expenseReports = Expense::select("id", "category_id", "amount", "expense_date", "created_at")
-            ->with(["category:id,name"])
-            ->when($categoryId, fn($query) => $query->where("category_id", $categoryId))
-            ->when($startDate && $endDate, fn($query) => $query->whereBetween("expense_date", [$startDate, $endDate]))
-            ->orderBy("expense_date", "desc")
-            ->paginate($paginateSize);
-
-        return [
-            "total_expense"  => $expenseReports->count(),
-            "total_amount"   => $expenseReports->sum("amount"),
-            "expense_report" => $expenseReports
-        ];
-    }
-
-    public function netProfitReport($request)
-    {
-        $startDate    = $request->input("start_date", null);
-        $endDate      = $request->input("end_date", null);
-        $paginateSize = Helper::checkPaginateSize($request);
-
-        if ($startDate && $endDate) {
-            $startDate = Carbon::parse($startDate)->startOfMonth();
-            $endDate   = Carbon::parse($endDate)->endOfMonth();
-        }
-
-        // Fetch Expense Reports
-        $expenseData = Expense::select(
-            DB::raw("DATE_FORMAT(expense_date, '%Y-%m') as month"),
-            DB::raw("DATE_FORMAT(expense_date, '%M %Y') as month_name"),
-            DB::raw("SUM(amount) as monthly_expense")
-        )
-            ->when($startDate && $endDate, fn($query) => $query->whereBetween("expense_date", [$startDate, $endDate]))
-            ->groupBy(
-                DB::raw("DATE_FORMAT(expense_date, '%Y-%m')"),
-                DB::raw("DATE_FORMAT(expense_date, '%M %Y')")
-            )
-            ->orderBy(DB::raw("DATE_FORMAT(expense_date, '%Y-%m')"), "desc")
-            ->get();
-
-        // Fetch Sell Reports
-        $sellData = $this->model->select(
-            DB::raw("DATE_FORMAT(created_at, '%Y-%m') as month"),
-            DB::raw("DATE_FORMAT(created_at, '%M %Y') as month_name"),
-            DB::raw("SUM(net_order_price - buy_price) as monthly_sell")
-        )
-            ->when($startDate && $endDate, fn($query) => $query->whereBetween("created_at", [$startDate, $endDate]))
-            ->groupBy(
-                DB::raw("DATE_FORMAT(created_at, '%Y-%m')"),
-                DB::raw("DATE_FORMAT(created_at, '%M %Y')")
-            )
-            ->orderBy(DB::raw("DATE_FORMAT(created_at, '%Y-%m')"), "desc")
-            ->get();
-
-        // Merge all months from both sell and expense reports
-        $allMonths = collect($expenseData)
-            ->pluck("month")
-            ->merge($sellData->pluck("month"))
-            ->unique()
-            ->sortDesc();
-
-        // Generate the final profit report
-        $mergedData = $allMonths->map(function ($month) use ($sellData, $expenseData) {
-            $sell    = collect($sellData)->firstWhere("month", $month);
-            $expense = collect($expenseData)->firstWhere("month", $month);
-
-            return [
-                "month"           => $month,
-                "month_name"      => $sell->month_name ?? $expense->month_name,
-                "monthly_sell"    => $sell->monthly_sell ?? 0,
-                "monthly_expense" => $expense->monthly_expense ?? 0,
-                "monthly_profit"  => ($sell->monthly_sell ?? 0) - ($expense->monthly_expense ?? 0)
-            ];
-        });
-
-        // Paginate the final merged data manually
-        $currentPage = LengthAwarePaginator::resolveCurrentPage();
-        $pagedData   = new LengthAwarePaginator(
-            $mergedData->forPage($currentPage, $paginateSize),
-            $mergedData->count(),
-            $paginateSize,
-            $currentPage,
-            ["path" => request()->url()]
-        );
-
-        return [
-            "data"             => $pagedData->values(),
-            "pagination"       => [
-                "current_page" => $pagedData->currentPage(),
-                "per_page"     => $pagedData->perPage(),
-                "total"        => $pagedData->total(),
-                "last_page"    => $pagedData->lastPage(),
-            ]
-        ];
     }
 
     public function incompleteOrderReport($request)
@@ -689,7 +512,7 @@ class ReportRepository
             "top_products" => $topProducts
         ];
     }
-    
+
     public function getLowestProducts($request)
     {
         $lowestStockProducts = Product::select('id', 'name', 'current_stock', 'img_path')
@@ -705,7 +528,7 @@ class ReportRepository
 
         return $lowestStockProducts;
     }
-    
+
     public function downsellReport($request)
     {
         $startDate    = $request->input("start_date", null);
@@ -735,7 +558,7 @@ class ReportRepository
             "orders"         => $orders,
         ];
     }
-    
+
     public function followUpReport($request)
     {
         $startDate    = $request->input("start_date", null);

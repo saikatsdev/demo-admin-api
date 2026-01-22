@@ -8,36 +8,36 @@ use App\Models\Product\Category;
 
 class CategorySeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
         $status = StatusEnum::ACTIVE;
 
-        Category::insert([
+        Category::upsert([
             [
-                "name"   => "Category 1",
-                "slug"   => "category-1",
-                "status" => $status,
+                'name'   => 'Electronics',
+                'slug'   => 'electronics',
+                'status' => $status,
             ],
             [
-                "name"   => "Category 2",
-                "slug"   => "category-2",
-                "status" => $status,
+                'name'   => 'Mobile & Gadgets',
+                'slug'   => 'mobile-gadgets',
+                'status' => $status,
             ],
             [
-                "name"   => "Category 3",
-                "slug"   => "category-3",
-                "status" => $status,
+                'name'   => 'Fashion & Fabric',
+                'slug'   => 'fashion-fabric',
+                'status' => $status,
             ],
             [
-                "name"   => "Category 4",
-                "slug"   => "category-4",
-                "status" => $status,
+                'name'   => 'Bike Accessories',
+                'slug'   => 'bike-accessories',
+                'status' => $status,
             ],
             [
-                "name"   => "Category 5",
-                "slug"   => "category-5",
-                "status" => $status,
+                'name'   => 'Home Appliances',
+                'slug'   => 'home-appliances',
+                'status' => $status,
             ],
-        ]);
+        ], ['slug'], ['name', 'status']);
     }
 }

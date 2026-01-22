@@ -8,36 +8,36 @@ use Illuminate\Database\Seeder;
 
 class BrandSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
         $status = StatusEnum::ACTIVE;
 
-        Brand::insert([
+        Brand::upsert([
             [
-                "name"   => "Brand 1",
-                "slug"   => "brand-1",
-                "status" => $status,
+                'name'   => 'Samsung',
+                'slug'   => 'samsung',
+                'status' => $status,
             ],
             [
-                "name"   => "Brand 2",
-                "slug"   => "brand-2",
-                "status" => $status,
+                'name'   => 'Apple',
+                'slug'   => 'apple',
+                'status' => $status,
             ],
             [
-                "name"   => "Brand 3",
-                "slug"   => "brand-3",
-                "status" => $status,
+                'name'   => 'Nike',
+                'slug'   => 'nike',
+                'status' => $status,
             ],
             [
-                "name"   => "Brand 4",
-                "slug"   => "brand-4",
-                "status" => $status,
+                'name'   => 'Honda',
+                'slug'   => 'honda',
+                'status' => $status,
             ],
             [
-                "name"   => "Brand 5",
-                "slug"   => "brand-5",
-                "status" => $status,
+                'name'   => 'Philips',
+                'slug'   => 'philips',
+                'status' => $status,
             ],
-        ]);
+        ], ['slug'], ['name', 'status']);
     }
 }

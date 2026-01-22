@@ -91,6 +91,13 @@ class SettingSeeder extends Seeder
             ],
             [
                 "setting_category_id" => 1,
+                "key"                 => "backend_base_url",
+                "value"               => "",
+                "type"                => "input",
+                "instruction"         => "এডমিন বেইজ লিংক।"
+            ],
+            [
+                "setting_category_id" => 1,
                 "key"                 => "duplicate_order_check_duration",
                 "value"               => 12,
                 "type"                => "input",
@@ -98,10 +105,31 @@ class SettingSeeder extends Seeder
             ],
             [
                 "setting_category_id" => 1,
-                "key"                 => "block_user_message",
-                "value"               => "You have been blocked from placing orders. Please contact by 01000000000",
-                "type"                => "input",
-                "instruction"         => "Message when user have been block"
+                "key"                 => "customer_review",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "টাইমলাইনে কাস্টমার রিভিউ শো করাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 1,
+                "key"                 => "category_section",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "হোমপেজে ক্যাটাগরি সেকশন দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 1,
+                "key"                 => "dashboard_bulletin",
+                "value"               => 0,
+                "type"                => "switch-button",
+                "instruction"         => "এডমিন ড্যাশবোর্ডে নিউজ বুলেটিন দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 1,
+                "key"                 => "live_chat",
+                "value"               => 0,
+                "type"                => "switch-button",
+                "instruction"         => "লাইভ চ্যাট অপশন বন্ধ বা চালু করতে এই সুইচটি অন/অফ করুন।"
             ],
             [
                 "setting_category_id" => 2,
@@ -126,6 +154,27 @@ class SettingSeeder extends Seeder
             ],
             [
                 "setting_category_id" => 3,
+                "key"                 => "refund_policy",
+                "value"               => "Write your refund policy",
+                "type"                => "description",
+                "instruction"         => "প্রোডাক্টের জন্য রিফান্ড ও পলিসি লিখুন।"
+            ],
+            [
+                "setting_category_id" => 3,
+                "key"                 => "why_choose_us",
+                "value"               => "Write your why choose us",
+                "type"                => "description",
+                "instruction"         => "প্রোডাক্টের জন্য Why Choose Us এখানে লিখতে পারেন।"
+            ],
+            [
+                "setting_category_id" => 3,
+                "key"                 => "invoice_text",
+                "value"               => "প্রোডাক্ট হাতে পেয়ে কুরিয়ার ম্যানের সামনে চেক করে নিন। কোনো সমস্যা থাকলে সাথে সাথে আমাদের কল সেন্টারে জানান।",
+                "type"                => "description",
+                "instruction"         => "ইনভয়েসের নিচে কাস্টমার নোট লিখতে এখানে টাইপ করুন।"
+            ],
+            [
+                "setting_category_id" => 3,
                 "key"                 => "is_stock_maintain",
                 "value"               => 1,
                 "type"                => "switch-button",
@@ -145,8 +194,6 @@ class SettingSeeder extends Seeder
                 "type"                => "switch-button",
                 "instruction"         => "Customer can order without current stock"
             ],
-
-
             [
                 "setting_category_id" => 4,
                 "key"                 => "phone_number",
@@ -197,21 +244,68 @@ class SettingSeeder extends Seeder
                 "instruction"         => "আপনি চাইলে ওয়েবসাইটের Footer এ ব্যবহৃত Address এখান থেকে পরিবর্তন করতে পারেন ।"
             ],
             [
-                "setting_category_id" => 1,
-                "key"                 => "is_landing_page_maintain",
-                "value"               => 1,
-                "type"                => "switch-button",
-                "instruction"         => "লেন্ডিং পেইজ ফিচার এর জন্য Switcher টি ON করে দিন, না চাইলে Switcher টি OFF করে দিন ।"
+                "setting_category_id" => 4,
+                "key"                 => "tiktok_link",
+                "value"               => "",
+                "type"                => "input",
+                "instruction"         => "টিকটক প্রোফাইলের লিংক দিন।"
             ],
             [
                 "setting_category_id" => 4,
-                "key"                 => "campaign_section_banner_image",
-                "value"               => "https://i0.wp.com/servicekey.io/wp-content/uploads/2023/12/Service-Key-Official-Logo-2.png?resize=2048%2C469&ssl=1",
-                "type"                => "image",
-                "instruction"         => "Home Page Campaign Section এর জন্য Background Image টি এখানে আপডেট করুন ।"
+                "key"                 => "youtube_link",
+                "value"               => "",
+                "type"                => "input",
+                "instruction"         => "আপনার ইউটিউব চ্যানেলের লিংক দিন।"
             ],
-
-
+            [
+                "setting_category_id" => 4,
+                "key"                 => "instagram_link",
+                "value"               => "",
+                "type"                => "input",
+                "instruction"         => "আপনার ইন্সটাগ্রাম প্রোফাইলের লিংক দিন।"
+            ],
+            [
+                "setting_category_id" => 4,
+                "key"                 => "show_tiktok",
+                "value"               => 0,
+                "type"                => "switch-button",
+                "instruction"         => "আপনার টিকটক প্রোফাইল দেখাতে চান,তাহলে অন/অফ করুন।"
+            ],
+            [
+                "setting_category_id" => 4,
+                "key"                 => "show_instagram",
+                "value"               => 0,
+                "type"                => "switch-button",
+                "instruction"         => "আপনার ইন্সটাগ্রাম প্রোফাইল দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 4,
+                "key"                 => "show_youtube",
+                "value"               => 0,
+                "type"                => "switch-button",
+                "instruction"         => "ইউটিউব চ্যানেল দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 4,
+                "key"                 => "show_facebook",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "ফেইসবুক দেখাতে চাইলে সুইচটি অন করুন।"
+            ],
+            [
+                "setting_category_id" => 4,
+                "key"                 => "show_email",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "ইমেইল দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 4,
+                "key"                 => "facebook_page_link",
+                "value"               => "",
+                "type"                => "input",
+                "instruction"         => "ফেইসবুক পেইজ লিংক দিতে চাইলে এখানে দিন।"
+            ],
             [
                 "setting_category_id" => 5,
                 "key"                 => "is_use_top_header",
@@ -232,6 +326,13 @@ class SettingSeeder extends Seeder
                 "value"               => 1,
                 "type"                => "switch-button",
                 "instruction"         => "আপনার ওয়েবসাইটে ব্যবহৃত Top Header এর Left side এর লেখাটি Scroll করে দেখাতে চান তাহলে সুইচটি অন করে দিন ।"
+            ],
+            [
+                "setting_category_id" => 5,
+                "key"                 => "top_header_background",
+                "value"               => "#101010",
+                "type"                => "input",
+                "instruction"         => "টপ হেডারের ব্যাকগ্রাউন্ড কালার পরিবর্তন করতে চাইলে এখানে কালার কোড দিন।"
             ],
             [
                 "setting_category_id" => 6,
@@ -289,8 +390,34 @@ class SettingSeeder extends Seeder
                 "type"                => "input",
                 "instruction"         => "আপনার ওয়েবসাইটের primary button এর hover এর color কোডটি এখানে দিন ।"
             ],
-
-
+            [
+                "setting_category_id" => 6,
+                "key"                 => "cart_button_background_color",
+                "value"               => "#ffffff",
+                "type"                => "input",
+                "instruction"         => "Add To Cart বাটনের ব্যাকগ্রাউন্ড কালার পরিবর্তন করতে চাইলে এখানে কালার কোড দিন।"
+            ],
+            [
+                "setting_category_id" => 6,
+                "key"                 => "cart_button_background_hover_color",
+                "value"               => "#000",
+                "type"                => "input",
+                "instruction"         => "Add To Cart বাটনের ব্যাকগ্রাউন্ড হোভার কালার পরিবর্তন করতে চাইলে এখানে কালার কোড দিন।"
+            ],
+            [
+                "setting_category_id" => 6,
+                "key"                 => "cart_button_color",
+                "value"               => "#000",
+                "type"                => "input",
+                "instruction"         => "Add To Cart বাটনের টেক্সট কালার পরিবর্তন করতে চাইলে এখানে কালার কোড দিন।"
+            ],
+            [
+                "setting_category_id" => 6,
+                "key"                 => "cart_button_hover_color",
+                "value"               => "#ffffff",
+                "type"                => "input",
+                "instruction"         => "Add To Cart বাটনের হোভার কালার পরিবর্তন করতে চাইলে এখানে কালার কোড দিন।"
+            ],
             [
                 "setting_category_id" => 7,
                 "key"                 => "checkout_message",
@@ -300,10 +427,59 @@ class SettingSeeder extends Seeder
             ],
             [
                 "setting_category_id" => 7,
-                "key"                 => "order_success_message",
-                "value"               => "আপনার অর্ডারটি সফল ভাবে সম্পন্ন হয়েছে । আমাদের একজন প্রতিনিদি আপনাকে ফোন করে অর্ডারটি ভেরিফাই করবেন।",
-                "type"                => "descripiton",
-                "instruction"         => "আপনার ওয়েবসাইটের ThankYou Page এর Custom Message পরিবর্তন করতে চাইলে এখানে লিখুন ।"
+                "key"                 => "checkout_header_color",
+                "value"               => "#000",
+                "type"                => "input",
+                "instruction"         => "চেকআউট পেজে সবার উপরের ব্যাকগ্রাউন্ড কালার পরিবর্তন করতে চাইলে এখানে কালার কোড দিন।"
+            ],
+            [
+                "setting_category_id" => 7,
+                "key"                 => "place_order_button_bg_color",
+                "value"               => "#101010",
+                "type"                => "input",
+                "instruction"         => "Place Order বাটনের ব্যাকগ্রাউন্ড কালার পরিবর্তন করুন এখানে কোড দিন..."
+            ],
+            [
+                "setting_category_id" => 7,
+                "key"                 => "place_order_button_text",
+                "value"               => "অর্ডার কনফার্ম",
+                "type"                => "input",
+                "instruction"         => "Place Order বাটনের টেক্সট পরিবর্তন করতে চাইলে এখানে লিখুন..."
+            ],
+            [
+                "setting_category_id" => 7,
+                "key"                 => "show_coupon",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "চেকআউট পেইজে কুপন দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 7,
+                "key"                 => "show_bkash",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "চেক আউট পেইজে পেমেন্ট মেথডে বিকাশ দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 7,
+                "key"                 => "show_nagad",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "চেক আউট পেইজে পেমেন্ট মেথডে নগদ দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 7,
+                "key"                 => "show_rocket",
+                "value"               => 1,
+                "type"                => "switch-button",
+                "instruction"         => "চেক আউট পেইজে পেমেন্ট মেথডে রকেট দেখাতে চাইলে সুইচটি অন করে দিন।"
+            ],
+            [
+                "setting_category_id" => 7,
+                "key"                 => "show_card",
+                "value"               => 0,
+                "type"                => "switch-button",
+                "instruction"         => "কার্ড পেমেন্ট দেখাতে চাইলে সুইচটি অন/অফ করে দিন।"
             ],
         ]);
     }

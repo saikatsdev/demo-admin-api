@@ -11,10 +11,11 @@ class OrderProductResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'id'   => $this->id,
-            'name' => $this->name,
-            'slug' => $this->slug,
-            'img'  => $this->img_path ? Helper::getFilePath($this->img_path) : null,
+            'id'         => $this->id,
+            'name'       => $this->name,
+            'slug'       => $this->slug,
+            'sell_price' => $this->sell_price,
+            'img'        => $this->img_path ? Helper::getFilePath($this->img_path) : null,
         ];
     }
 }

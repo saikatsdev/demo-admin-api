@@ -24,10 +24,6 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
     // Report
     Route::controller(ReportController::class)->group(function () {
-        Route::get('purchase/reports',   'purchaseReport');
-        Route::get('supplier/reports',   'supplierReport');
-        Route::get('expense/reports',    'expenseReport');
-        Route::get('net-profit/reports', 'netProfitReport');
         Route::get("incomplete/order/reports", 'incompleteOrderReport');
         Route::get("lowest/stock/products", "getLowestProducts");
     });

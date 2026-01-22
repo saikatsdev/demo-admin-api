@@ -148,7 +148,7 @@ class ReportController extends BaseController
             return $this->sendError(__("common.commonError"));
         }
     }
-    
+
     public function orderCancelReport(Request $request)
     {
         if (!$request->user()->hasPermission("reports-read")) {
@@ -164,7 +164,7 @@ class ReportController extends BaseController
             return $this->sendError(__("common.commonError"));
         }
     }
-    
+
     public function orderReturnReport(Request $request)
     {
         if (!$request->user()->hasPermission("reports-read")) {
@@ -175,70 +175,6 @@ class ReportController extends BaseController
             $returnOrders = $this->repository->orderReturnReport($request);
 
             return $this->sendResponse($returnOrders, "Return Order report", 200);
-        } catch (\Throwable $th) {
-            Log::error($th->getMessage());
-            return $this->sendError(__("common.commonError"));
-        }
-    }
-
-    public function purchaseReport(Request $request)
-    {
-        if (!$request->user()->hasPermission("reports-read")) {
-            return $this->sendError(__("common.unauthorized"), 401);
-        }
-
-        try {
-            $purchaseReport = $this->repository->purchaseReport($request);
-
-            return $this->sendResponse($purchaseReport, "Purchase report", 200);
-        } catch (\Throwable $th) {
-            Log::error($th->getMessage());
-            return $this->sendError(__("common.commonError"));
-        }
-    }
-
-    public function supplierReport(Request $request)
-    {
-        if (!$request->user()->hasPermission("reports-read")) {
-            return $this->sendError(__("common.unauthorized"), 401);
-        }
-
-        try {
-            $supplierReport = $this->repository->supplierReport($request);
-
-            return $this->sendResponse($supplierReport, "Supplier report", 200);
-        } catch (\Throwable $th) {
-            Log::error($th->getMessage());
-            return $this->sendError(__("common.commonError"));
-        }
-    }
-
-    public function expenseReport(Request $request)
-    {
-        if (!$request->user()->hasPermission("reports-read")) {
-            return $this->sendError(__("common.unauthorized"), 401);
-        }
-
-        try {
-            $expenseReport = $this->repository->expenseReport($request);
-
-            return $this->sendResponse($expenseReport, "Expense report", 200);
-        } catch (\Throwable $th) {
-            Log::error($th->getMessage());
-            return $this->sendError(__("common.commonError"));
-        }
-    }
-
-    public function netProfitReport(Request $request)
-    {
-        if (!$request->user()->hasPermission("reports-read")) {
-            return $this->sendError(__("common.unauthorized"), 401);
-        }
-
-        try {
-            $netProfitReport = $this->repository->netProfitReport($request);
-
-            return $this->sendResponse($netProfitReport, "Profit report", 200);
         } catch (\Throwable $th) {
             Log::error($th->getMessage());
             return $this->sendError(__("common.commonError"));
@@ -267,14 +203,14 @@ class ReportController extends BaseController
 
         return $this->sendResponse($data, "Down Sell Report", 200);
     }
-    
+
     public function getLowestProducts(Request $request)
     {
         $data = $this->repository->getLowestProducts($request);
 
         return $this->sendResponse($data, "Lowest Stock Product", 200);
     }
-    
+
     public function downsellReport(Request $request)
     {
         try {
@@ -286,7 +222,7 @@ class ReportController extends BaseController
             return $this->sendError(__("common.commonError"));
         }
     }
-    
+
     public function followUpReport(Request $request)
     {
         try {

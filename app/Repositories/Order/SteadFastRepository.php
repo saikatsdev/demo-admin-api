@@ -80,35 +80,45 @@ class SteadFastRepository
             throw new CustomException("Stead fast credential not configured");
         }
 
-        $orders = Order::where("courier_id", 1)->whereIn("id", $request->order_ids)->get();
+        $orders = Order::where("courier_id", 1)
+            ->whereIn("id", $request->order_ids)
+            ->get();
 
-        $data = [];
+        if ($orders->isEmpty()) {
+            throw new CustomException("No valid orders found for SteadFast");
+        }
+
+        $payload = [];
 
         foreach ($orders as $order) {
-            $data[] = [
-                'invoice'           => $order->id,
+            $payload[] = [
+                'invoice'           => (string) $order->id,
                 'recipient_name'    => $order->customer_name,
-                'recipient_address' => $order->address_details,
                 'recipient_phone'   => $order->phone_number,
-                'cod_amount'        => $order->payable_price,
+                'recipient_address' => $order->address_details,
+                'cod_amount'        => (int) round($order->payable_price),
                 'note'              => $order->note,
             ];
         }
 
-        $url = "$this->endPoint/create_order/bulk-order";
+        $url = "{$this->endPoint}/create_order/bulk-order";
 
-        $res = Http::withHeaders($this->headers)->post($url, [
-            "data" => $data,
-        ]);
+        $res = Http::withHeaders($this->headers)->post($url, $payload);
 
-        $data = json_decode($res->getBody()->getContents());
+        $responseData = $res->json();
 
-        foreach ($data as $item) {
-            $order = Order::where("consignment_id", $request->consignment_id)->first();
+        if (empty($responseData['data'])) {
+            throw new CustomException(
+                $responseData['message'] ?? 'SteadFast bulk order failed'
+            );
+        }
+
+        foreach ($responseData['data'] as $item) {
+            $order = Order::find($item['invoice'] ?? null);
 
             if ($order) {
-                $order->consignment_id = $item->consignment_id;
-                $order->tracking_code  = $order->tracking_code;
+                $order->consignment_id    = $item['consignment_id'] ?? null;
+                $order->tracking_code     = $item['tracking_code'] ?? null;
                 $order->courier_status_id = OrderStatusEnum::COURIER_PENDING;
                 $order->save();
             }

@@ -30,7 +30,7 @@ class CustomerTypeRepository
     public function list()
     {
         return $this->model
-        ->select("id", "name")
+        ->select("id", "name","order_range")
         ->where("status", StatusEnum::ACTIVE)
         ->orderBy("name", "ASC")
         ->get();

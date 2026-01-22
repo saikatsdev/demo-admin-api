@@ -150,10 +150,6 @@ class OrderRepository
         ->leftJoin('orders', function ($join) use ($request, $startDate, $endDate, $searchKey) {
             $join->on('orders.current_status_id', '=', 'statuses.id')->whereNull('orders.deleted_at');
 
-            // if ($request->current_status_id) {
-            //     $join->where('orders.current_status_id', $request->current_status_id);
-            // }
-
             if ($request->paid_status) {
                 $join->where('orders.paid_status', $request->paid_status);
             }
@@ -239,7 +235,7 @@ class OrderRepository
             OrderStatusEnum::COURIER_RECEIVED,
         ])
         ->groupBy('statuses.id', 'statuses.name')
-        ->orderBy('statuses.id')
+        ->orderBy('statuses.position', "ASC")
         ->get();
 
         $orders = (clone $baseQuery)
@@ -251,7 +247,7 @@ class OrderRepository
         )
         ->with([
             "details:id,order_id,product_id",
-            "details.product:id,name,slug,img_path",
+            "details.product:id,name,slug,img_path,sell_price",
             "currentStatus:id,name,bg_color,text_color",
             "paymentGateway:id,name",
             "orderFrom:id,name",
@@ -738,9 +734,9 @@ class OrderRepository
 
             $orderCountByPhone = $this->model->where("phone_number", $request->phone_number)->count();
 
-            $customerType = CustomerType::where('order_range', '<=', $orderCountByPhone)
-            ->orderBy('order_range', 'desc')
-            ->first();
+            $totalOrders = $orderCountByPhone + 1;
+
+            $customerType = CustomerType::where('order_range', '<=', $totalOrders)->orderBy('order_range', 'desc')->first();
 
             $order = new $this->model();
 
@@ -749,9 +745,9 @@ class OrderRepository
             $order->coupon_id           = $request->coupon_id;
             $order->current_status_id   = OrderStatusEnum::PENDING;
             $order->order_from_id       = 1;
-            $order->customer_type_id    = $customerType ? $customerType->id : 1;
+            $order->customer_type_id    = $customerType->id ?? 1;
 
-            $order->invoice_number = Helper::generateInvoiceNumber(Order::class,'invoice_number',4);
+            $order->invoice_number      = Helper::generateInvoiceNumber(Order::class,'invoice_number',4);
 
             $order->advance_payment     = $request->advance_payment ?? 0;
             $order->special_discount    = $specialDiscount;

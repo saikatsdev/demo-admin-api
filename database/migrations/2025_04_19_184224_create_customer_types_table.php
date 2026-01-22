@@ -12,8 +12,8 @@ return new class extends Migration
         Schema::create('customer_types', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('slug');
-            $table->integer('order_range')->default(0);
+            $table->string('slug')->unique();
+            $table->integer('order_range')->unique()->index();
             $table->string('status')->default(StatusEnum::ACTIVE);
             $table->unsignedBigInteger('created_by')->nullable();
             $table->unsignedBigInteger('updated_by')->nullable();
