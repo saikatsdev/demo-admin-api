@@ -698,9 +698,6 @@ class ProductRepository
             $copyProduct->meta_description    = $product->meta_description;
             $copyProduct->save();
 
-            // Attach  and up sell with product
-            $copyProduct->upSellProducts()->sync($product->upSellProducts->pluck("id")->toArray());
-
             if ($product->variations && count($product->variations) > 0) {
                 foreach ($product->variations as $variation) {
                     ProductVariation::create([

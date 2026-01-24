@@ -40,8 +40,8 @@ class CourierDeliveryReportRepository
         ->first();
 
         return Cache::remember($cacheKey, now()->addMinutes($duration), function () use ($phoneNumber, $orderSummary) {
-            $response = Http::withToken('PO18Y6huyhpbZDHOdAwCNwkurXxHSQ1Je8t5WyxyYaLU4vcwQ4wSWqxE2PiV')
-            ->post('https://api.bdcourier.com/courier-check', [
+            $response = Http::withToken('test-code')
+            ->post('https://api.bdcourier.com/test/courier-check', [
                 'phone' => $phoneNumber,
             ]);
 
